@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="amwayBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FBFBFB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Wooden Gold Frame -->
+  <rect width="1200" height="850" fill="#755737"/>
+  <rect x="15" y="15" width="1170" height="820" rx="8" fill="#4B331D" stroke="#D3A766" stroke-width="6"/>
+  <rect x="35" y="35" width="1130" height="780" rx="6" fill="#F4EFEA"/>
+
+  <!-- Certificate Inner Page -->
+  <rect x="60" y="60" width="1080" height="730" rx="4" fill="url(#amwayBg)" stroke="#15803D" stroke-width="6"/>
+  <rect x="75" y="75" width="1050" height="700" rx="2" fill="none" stroke="#D2D6DC" stroke-width="1"/>
+
+  <!-- Top Right Header: Amway Академия -->
+  <g transform="translate(1000, 110)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="14" font-weight="600" fill="#88929A" text-anchor="end">Amway</text>
+    <text x="0" y="24" font-family="'Manrope', sans-serif" font-size="22" font-weight="800" fill="#B02A30" text-anchor="end">академия</text>
+  </g>
+
+  <!-- Central Ribbon Medal Emblem -->
+  <g transform="translate(600, 160)">
+    <polygon points="-36,-15 36,-15 28,30 0,55 -28,30" fill="#22C55E"/>
+    <circle cx="0" cy="12" r="18" fill="#FBD778" stroke="#D4A134" stroke-width="2"/>
+    <path d="M -8,12 L 0,20 L 8,6" fill="none" stroke="#5E430B" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title & Certificate Number -->
+  <text x="600" y="280" font-family="'Manrope', sans-serif" font-size="46" font-weight="900" fill="#202A37" text-anchor="middle" letter-spacing="4">СЕРТИФИКАТ</text>
+  <text x="600" y="325" font-family="'Manrope', sans-serif" font-size="20" font-weight="700" fill="#4B5563" text-anchor="middle">№ 7772711</text>
+  <text x="600" y="360" font-family="'Manrope', sans-serif" font-size="15" font-weight="500" fill="#6B7280" text-anchor="middle">подтверждает, что</text>
+
+  <!-- Recipient -->
+  <text x="600" y="420" font-family="'Manrope', sans-serif" font-size="34" font-weight="800" fill="#111827" text-anchor="middle" letter-spacing="2">ПАЗЫЛОВА ЖИЙДЕГУЛ</text>
+  <line x1="340" y1="435" x2="860" y2="435" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Qualification Body -->
+  <text x="600" y="475" font-family="'Manrope', sans-serif" font-size="17" font-weight="500" fill="#374151" text-anchor="middle">прошёл(ла) обучение в Институте «Здоровый и активный образ жизни»</text>
+  <text x="600" y="505" font-family="'Manrope', sans-serif" font-size="17" font-weight="500" fill="#374151" text-anchor="middle">и успешно сдал(а) сертификационный тест уровня</text>
+
+  <!-- Level Badge -->
+  <rect x="420" y="530" width="360" height="60" rx="10" fill="#22C55E"/>
+  <text x="600" y="570" font-family="'Manrope', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">МАСТЕР</text>
+
+  <!-- Signatures and Date -->
+  <g transform="translate(180, 680)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="13" font-weight="600" fill="#4B5563">Дата выдачи:</text>
+    <text x="0" y="24" font-family="'Manrope', sans-serif" font-size="16" font-weight="700" fill="#111827">16.04.2020</text>
+  </g>
+
+  <g transform="translate(480, 680)">
+    <!-- Blue Seal -->
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="0" y="4" font-family="'Manrope', sans-serif" font-size="12" font-weight="700" fill="#2563EB" text-anchor="middle">«АМВЭЙ»</text>
+    <text x="0" y="16" font-family="'Manrope', sans-serif" font-size="8" fill="#2563EB" text-anchor="middle">МОСКВА ОГРН</text>
+  </g>
+
+  <g transform="translate(780, 670)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="13" font-weight="600" fill="#4B5563">Менеджер отдела обучения</text>
+    <text x="0" y="20" font-family="'Manrope', sans-serif" font-size="14" font-weight="700" fill="#111827">Анна Муромцева</text>
+    <path d="M 200,-5 C 230,-25 240,15 270,-10" fill="none" stroke="#1E293B" stroke-width="2"/>
+  </g>
+</svg>

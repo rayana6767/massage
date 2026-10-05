@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" width="1200" height="850">
+  <defs>
+    <linearGradient id="ecoleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F9F3EA"/>
+    </linearGradient>
+    <filter id="ecoleShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="850" fill="#3D291D"/>
+  
+  <!-- Outer Frame: Rich Dark Wood & Gold Border -->
+  <rect x="25" y="25" width="1150" height="800" rx="12" fill="#4E3424" stroke="#8A6740" stroke-width="8"/>
+  <rect x="45" y="45" width="1110" height="760" rx="8" fill="url(#ecoleBg)" stroke="#C5A069" stroke-width="4" filter="url(#ecoleShadow)"/>
+  <rect x="65" y="65" width="1070" height="720" rx="6" fill="none" stroke="#C5A069" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Ornate corner accents -->
+  <path d="M 65,115 Q 115,115 115,65" fill="none" stroke="#A88049" stroke-width="2"/>
+  <path d="M 1135,115 Q 1085,115 1085,65" fill="none" stroke="#A88049" stroke-width="2"/>
+  <path d="M 65,735 Q 115,735 115,785" fill="none" stroke="#A88049" stroke-width="2"/>
+  <path d="M 1135,735 Q 1085,735 1085,785" fill="none" stroke="#A88049" stroke-width="2"/>
+
+  <!-- Logo École -->
+  <g transform="translate(600, 140)">
+    <circle cx="0" cy="-22" r="28" fill="#2E231B"/>
+    <path d="M -12,-32 Q 8,-38 12,-20 Q 8, -6 -12,-8" fill="#FFF"/>
+    <text x="0" y="28" font-family="'Manrope', sans-serif" font-size="34" font-weight="800" fill="#201712" text-anchor="middle" letter-spacing="4">экóль</text>
+    <text x="0" y="46" font-family="'Manrope', sans-serif" font-size="12" font-weight="700" fill="#8B6A45" text-anchor="middle" letter-spacing="3">АКАДЕМИЯ КРАСОТЫ</text>
+  </g>
+
+  <!-- Certificate Title -->
+  <text x="600" y="260" font-family="'Manrope', sans-serif" font-size="46" font-weight="900" fill="#231913" text-anchor="middle" letter-spacing="5">СЕРТИФИКАТ</text>
+  <text x="600" y="305" font-family="'Manrope', sans-serif" font-size="16" font-weight="500" fill="#756455" text-anchor="middle">Настоящим удостоверяется, что</text>
+
+  <!-- Recipient -->
+  <text x="600" y="365" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="700" fill="#20150F" text-anchor="middle">Пазылова Жийдегул Икрамовна</text>
+  <line x1="320" y1="380" x2="880" y2="380" stroke="#C5A069" stroke-width="1.5"/>
+
+  <text x="600" y="425" font-family="'Manrope', sans-serif" font-size="16" font-weight="500" fill="#756455" text-anchor="middle">прошел(а) курс</text>
+
+  <!-- Course -->
+  <rect x="250" y="455" width="700" height="75" rx="12" fill="#F4E9DB" stroke="#DBC5A8" stroke-width="1.5"/>
+  <text x="600" y="504" font-family="'Manrope', sans-serif" font-size="30" font-weight="800" fill="#2F2118" text-anchor="middle">Косметический массаж лица</text>
+
+  <!-- Bottom Details -->
+  <!-- Left Signatures -->
+  <g transform="translate(180, 650)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="16" font-weight="600" fill="#3D2E24">Руководитель учебного центра</text>
+    <path d="M 240,-10 C 270,-35 290,10 320,-20 C 340,5 360,-10 380,0" fill="none" stroke="#2B1E17" stroke-width="2"/>
+    <text x="0" y="60" font-family="'Manrope', sans-serif" font-size="18" font-weight="700" fill="#6A5645">№ 2836734</text>
+  </g>
+
+  <!-- Right Date and Seal -->
+  <g transform="translate(850, 650)">
+    <text x="0" y="0" font-family="'Manrope', sans-serif" font-size="18" font-weight="700" fill="#3D2E24" text-anchor="middle">21.05.2025</text>
+    <!-- Seal -->
+    <g transform="translate(0, 50)">
+      <circle cx="0" cy="0" r="42" fill="none" stroke="#1F4E79" stroke-width="2.5" stroke-dasharray="4,2"/>
+      <circle cx="0" cy="0" r="34" fill="none" stroke="#1F4E79" stroke-width="1"/>
+      <text font-family="'Manrope', sans-serif" font-size="7" font-weight="700" fill="#1F4E79" text-anchor="middle">АКАДЕМИЯ КРАСОТЫ ЭКОЛЬ</text>
+      <text x="0" y="14" font-family="'Manrope', sans-serif" font-size="7" font-weight="600" fill="#1F4E79" text-anchor="middle">ecolespb.ru</text>
+    </g>
+  </g>
+</svg>
